@@ -1,7 +1,7 @@
 from pyrogram import Client, filters, idle
 from pyrogram.types import InlineQueryResultPhoto, InlineKeyboardMarkup, InlineKeyboardButton, InlineQueryResultArticle, InputTextMessageContent
 from pyrogram import enums
-TOKEN = 'Token'
+TOKEN = '7369232144:AAHAK-QwlVuiUVdGU-svPads13ajDQZPy3M'
 app = Client(
 'ystbot', 25939451, '243853dc20929b33d40435f2606ad50e', bot_token=TOKEN
 )
