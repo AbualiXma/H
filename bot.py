@@ -1,12 +1,12 @@
 from pyrogram import Client, filters, idle
 from pyrogram.types import InlineQueryResultPhoto, InlineKeyboardMarkup, InlineKeyboardButton, InlineQueryResultArticle, InputTextMessageContent
 from pyrogram import enums
-TOKEN = '7369232144:AAHAK-QwlVuiUVdGU-svPads13ajDQZPy3M'
+TOKEN = '7369232144:AAFTMx8bPJjIO8uj-YsIexScmauM16E0vEw'
 app = Client(
 'ystbot', 25939451, '243853dc20929b33d40435f2606ad50e', bot_token=TOKEN
 )
 ######################
-LOG = -1002016082222 #
+LOG = -1002220904731 #
 ######################
 
 @app.on_message(filters.command("start") & filters.private)
@@ -18,14 +18,14 @@ async def startmsg(app, message):
 Devs : @znoghnews
 
 طريقة الاستعمال
-@znoghsecretsbot 😋 @NB_JG
+@SecUrznoghbot 😋 @NB_JG
 أو
-@znoghsecretsbot + Message + User
+@@SecUrznoghbot + Message + User
 
 '''.format(message.from_user.mention)
    key = InlineKeyboardMarkup (
      [[
-       InlineKeyboardButton ("تجربه", switch_inline_query='شلونك @NB_JG') ]]
+       InlineKeyboardButton ("تجربه", switch_inline_query='نيجني @NB_JG') ]]
    )
    await message.reply(text, reply_markup=key, quote=True)
 
