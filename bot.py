@@ -6,7 +6,7 @@ app = Client(
 'ystbot', 25939451, '243853dc20929b33d40435f2606ad50e', bot_token=TOKEN
 )
 ######################
-LOG = -1002220904731 #
+LOG =-1002195518253
 ######################
 
 @app.on_message(filters.command("start") & filters.private)
@@ -20,7 +20,7 @@ Devs : @znoghnews
 طريقة الاستعمال
 @SecUrznoghbot 😋 @NB_JG
 أو
-@@SecUrznoghbot + Message + User
+@SecUrznoghbot + Message + User
 
 '''.format(message.from_user.mention)
    key = InlineKeyboardMarkup (
@@ -73,9 +73,9 @@ async def whisper(app, query):
 Devs : @znoghnews
 
 طريقة الاستعمال
-@Znoghsecretsbot 😋 @NB_JG
+@SecUrznoghbot 😋 @NB_JG
 أو
-@Znoghsecretsbot + Message + User
+@SecUrznoghbot + Message + User
 '''
     await query.answer(
         results=[
